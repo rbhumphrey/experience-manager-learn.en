@@ -33,7 +33,7 @@ When we refer to a local AEM instance, we are talking about a copy of Adobe Expe
 
 If you are new to AEM, there are two basic run modes can be installed: ***Author*** and ***Publish***. The ***Author*** [runmode](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configure-runmodes.html)  is the environment that digital marketers will use to create and manage content. When developing **90%** of the time you will be deploying code to an Author instance. This allows you to create new pages as well as add and configure components. AEM Sites is a WYSIWYG authoring CMS and therefore most of the CSS and JavaScript can be tested against an authoring instance.
 
-It is also *critical* test code against a local ***Publish*** instance. The ***Publish*** instance is the AEM environment that visitors to your website will interact with. While the ***Publish*** instance is the same technology stack as the ***Author*** instance, there are some major distinctions with configurations and permissions. Code should *always* be tested against a local ***Publish*** instance before being promoted to higher level environments.
+It is also *critical* to test code against a local ***Publish*** instance. The ***Publish*** instance is the AEM environment that visitors to your website will interact with. While the ***Publish*** instance is the same technology stack as the ***Author*** instance, there are some major distinctions with configurations and permissions. Code should *always* be tested against a local ***Publish*** instance before being promoted to higher level environments.
 
 ### TL;DR
 
